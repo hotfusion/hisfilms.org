@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HisFilms.org — Under Construction</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgb(27, 28, 29);
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2rem; /* Bigger title */
+            margin: 0 0 15px;
+        }
+        p {
+            margin: 0 0 20px;
+            color: #aaa;
+            max-width: 400px;
+            line-height: 1.5;
+        }
+        .progress {
+            width: 200px;
+            height: 8px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+        .bar {
+            height: 100%;
+            width: 40%;
+            background: #3498db; /* Blue color */
+            animation: load 2s infinite ease-in-out;
+        }
+        @keyframes load {
+            0% { transform: translateX(-100%); }
+            50% { transform: translateX(0); }
+            100% { transform: translateX(100%); }
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1>HisFilms.org</h1>
+    <p>We are currently working hard to bring you something special. Please check back soon to experience HisFilms.org in its full glory.</p>
+    <div class="progress"><div class="bar"></div></div>
+</div>
+</body>
+</html>
